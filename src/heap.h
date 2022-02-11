@@ -11,7 +11,6 @@ public:
 	void pop();
 	T top();
 	int size();
-private:
 	void shiftup();
 	void shiftdown();
 };
