@@ -9,5 +9,13 @@ int main() {
 	for (auto item : sg.nodes) {
 		std::cout << item << std::endl;
 	}
+	while (true) {
+		int l, r;
+		int val;
+		std::cin >> l >> r >> val;
+		std::cout <<"l" << l << "r" << r << "val" << val << std::endl;
+		sg.add(l,r,val);
+		std::cout << sg.getSum(l,r) << std::endl;
+	}
     return 0;
 }
